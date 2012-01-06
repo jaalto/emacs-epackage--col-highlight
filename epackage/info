@@ -18,7 +18,7 @@ Commentary:
 X-Development:
   http://www.emacswiki.org/emacs/DrewsElispLibraries
   2012-01-05 Upstream email confirmed
-Description: highlight the current column
+Description: highlight the current column (extends vline.el)
  Extends vline.el in several ways. It provides commands:
  .
     - M-x toggle-highlight-column-when-idle
