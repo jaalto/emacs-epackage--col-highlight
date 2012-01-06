@@ -16,6 +16,7 @@ Homepage:
 Wiki: http://www.emacswiki.org/emacs/HighlightCurrentColumn
 Commentary:
 X-Development:
+  http://www.emacswiki.org/emacs/DrewsElispLibraries
   2012-01-05 Upstream email confirmed
 Description: highlight the current column
  Extends vline.el in several ways. It provides commands:
