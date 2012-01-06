@@ -1,0 +1,36 @@
+Package: col-highlight
+Section: extensions
+License: GPL-3+
+Depends: emacs (>= 22), vline
+Status: stable unsafe
+Archive: ELPA/Marmalade
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Drew Adams <drew.adams@oracle.com>
+Upstream-Bugs:
+Vcs-Type: http
+Vcs-Url: http://www.emacswiki.org/emacs/download/col-highlight.el
+Vcs-Browser:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/HighlightCurrentColumn
+Commentary:
+X-Development:
+  2012-01-05 Upstream email confirmed
+Description: highlight the current column
+ Extends vline.el in several ways. It provides commands:
+ .
+    - M-x toggle-highlight-column-when-idle
+      Highlight the current column whenever Emacs is idle more
+      than a certain number of seconds.
+    - M-x column-highlight-mode
+      Continually highlight the current column, tracking the
+      TextCursor as it moves. If you bind this to a key, you can
+      also use it to briefly show the current column, by hitting
+      the key twice.
+    - M-x col-highlight-flash
+      Highlight the current column for ‘col-highlight-period’
+      seconds. Another way to show the current column
+      temporarily.
+ .
+ NOTE: unsafe due to not using single name space; col-*, column-*, flash-*

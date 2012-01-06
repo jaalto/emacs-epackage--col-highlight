@@ -1,0 +1,5 @@
+(autoload 'column-highlight-mode                "col-highlight" "" t)
+(autoload 'col-highlight-toggle-when-idle       "col-highlight" "" t)
+(autoload 'col-highlight-set-interval           "col-highlight" "" t)
+(autoload 'col-highlight-flash                  "col-highlight" "" t)
+(provide 'col-highlight-epkg-install)
