@@ -4,4 +4,4 @@
 (autoload 'col-highlight-flash                  "col-highlight" "" t)
 (autoload 'col-highlight-highlight              "col-highlight" "" nil)
 (autoload 'col-highlight-unhighlight            "col-highlight" "" nil)
-(provide 'col-highlight-epkg-autoloads)
+(provide 'col-highlight-epackage-autoloads)

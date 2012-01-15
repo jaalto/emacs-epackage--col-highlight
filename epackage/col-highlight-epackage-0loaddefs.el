@@ -69,4 +69,4 @@ With a prefix argument, highlight for that many seconds.
 \(fn &optional ARG)" t nil)
 
 ;;;***
-(provide 'col-highlight-epkg-0loaddefs)
+(provide 'col-highlight-epackage-0loaddefs)
